@@ -1,0 +1,11 @@
+
+
+
+export const GET_NOTES_REQUEST:String = "GET_NOTES_REQUEST"
+export const GET_NOTES_SUCCESS:String = "GET_NOTES_SUCCESS"
+export const GET_NOTES_FALIURE:String = "GET_NOTES_FALIURE"
+
+
+export const POST_LOGIN_REQUEST:String = "POST_LOGIN_REQUEST"
+export const POST_LOGIN_SUCCESS:String = "POST_LOGIN_SUCCESS"
+export const POST_LOGIN_FALIURE:String = "POST_LOGIN_FALIURE"
