@@ -1,9 +1,12 @@
 import React from "react";
 import { Routes,Route } from "react-router-dom";
+import Login from "../Pages/Login";
+import Regsiter from "../Pages/Register";
 
 function AllRoutes() {
   return <Routes>
-    <Route path="/" element={<h1>Hello World</h1>}/>
+    <Route path="/login" element={<Login/>}/>
+    <Route path="/register" element={<Regsiter/>}/>
   </Routes>;
 }
 

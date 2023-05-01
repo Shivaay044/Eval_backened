@@ -31,7 +31,7 @@ type DispatchType = (args: NotesAction) => NotesState
 
 
 type LoginState = {
-    login: Login
+    isAuth : Boolean
 }
 
 
